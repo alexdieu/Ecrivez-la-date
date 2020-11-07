@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include <string.h>
  
- 
- 
- 
 int main (){        
     int jour = 0, mois = 0, annee = 0;
     int jour_modif = 1, mois_modif = 1, annee_modif = 0;
@@ -47,8 +44,8 @@ int main (){
     printf("Annee : "); scanf("%d", &annee);
   }
   if(annee < 1900){
-  	while (annee > 1900){
-  		printf("C'est trop vieux lol j'existais meme pas ! ");
+  	while (annee < 1900){
+  		printf("C'est trop vieux lol j'existais meme pas ! \n");
   		printf("Annee : "); scanf("%d", &annee);
 	  }
   }
