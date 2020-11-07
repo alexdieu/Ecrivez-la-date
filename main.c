@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
+ 
+ 
+ 
+ 
 int main (){        
     int jour = 0, mois = 0, annee = 0;
     int jour_modif = 1, mois_modif = 1, annee_modif = 0;
@@ -53,9 +56,7 @@ int main (){
       printf("Annee : "); scanf("%d", &annee);
     }
   }
- 
-  jour_modif = 1000000 * jour; mois_modif = 10000 * mois; annee_modif = annee;
-  date_finale = jour_modif + mois_modif + annee_modif;
+
   printf("Date = %d/%d/%d\n", jour , mois , annee);
   return 0;
  
