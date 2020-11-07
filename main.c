@@ -1,10 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
- 
- 
- 
- 
+
 int main (){        
     int jour = 0, mois = 0, annee = 0;
     int jour_modif = 1, mois_modif = 1, annee_modif = 0;
